@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-group img {
+  width: 100%;
+}
+
+.card-group ul li {
+  list-style: none;
+  flex: 0 0 33.333333%;
+}
+
+.card {
+  margin-top: 2%;
+  background-color: lightgray;
+  border: 1px solid black;
+  width: 50%;
+}
+
+.card-title .card-text {
+  margin: 0;
+}
+
+.card-title {
+  margin: 2%
+}
+
+.card-text {
+  font-size: 0.7em;
+  margin: 2%;
+}
+
+.bordered {
+  margin: 2%;
+}
+
