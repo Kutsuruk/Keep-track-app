@@ -52,3 +52,7 @@ code {
   margin: 2%;
 }
 
+form {
+  min-width: 300px;
+}
+

@@ -6,13 +6,14 @@ function formatDescription(description: string): string {
 }
 
 type ProjectCardProps = {
-    project: Project
+    project: Project,
+    onEdit: (project: Project) => void,
 }
 
-const ProjectCard:FC<ProjectCardProps> = ({project}) => {
+const ProjectCard:FC<ProjectCardProps> = ({project, onEdit}) => {
 
     const handleEditCard = (projectBeingEdited: Project) => {
-        console.log(projectBeingEdited)
+        onEdit(projectBeingEdited)
     }
 
     return(
